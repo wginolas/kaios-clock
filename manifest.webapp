@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "Clock",
+  "description": "A clock with second hand",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/kaios_56.png",
+    "112": "/assets/icons/kaios_112.png"
+  },
+  "developer": {
+    "name": "Wolfgang Ginolas",
+    "url": "https://github.com/wginolas/kaios-clock"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Clock",
+      "subtitle": "A clock with second hand",
+      "description": "A clock with second hand"
+    }
+  },
+  "default_locale": "en-US"
+}
