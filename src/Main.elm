@@ -33,7 +33,7 @@ type alias Model =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( Model Time.utc (Time.millisToPosix 0)
-    , Task.perform AdjustTimeZone Time.here
+    , Cmd.batch [ Task.perform AdjustTimeZone Time.here, Task.perform Tick Time.now ]
     )
 
 

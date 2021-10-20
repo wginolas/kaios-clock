@@ -37,7 +37,7 @@ hourHand hour minute second =
         secF =
             toFloat second
     in
-    hand 8.0 1.0 ((hF + (minF + secF / 60) / 60) * 15)
+    hand 8.0 1.0 ((hF + (minF + secF / 60) / 60) * 30)
 
 
 hand : Float -> Float -> Float -> Svg msg
