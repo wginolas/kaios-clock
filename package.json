@@ -5,14 +5,18 @@
   "repository": "git@github.com:wginolas/kaios-clock.git",
   "author": "Wolfgang Ginolas <wolfgang.ginolas@gwif.eu>",
   "license": "GPL3",
-  "browserslist": ["defaults"],
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "start": "parcel",
+    "live": "elm-live src/Main.elm",
     "build": "parcel build --public-url ./ && cp ./manifest.webapp ./dist/ && cp -r ./assets/ ./dist/"
   },
   "devDependencies": {
     "@parcel/transformer-elm": "^2.0.0",
     "elm": "^0.19.1-5",
+    "elm-live": "^4.0.2",
     "parcel": "^2.0.0"
   }
 }

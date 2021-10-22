@@ -1,0 +1,8 @@
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vmin;
+    margin-left: -50vmin;
+    width: 100vmin;
+}
